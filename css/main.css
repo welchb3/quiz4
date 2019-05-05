@@ -1,0 +1,54 @@
+/* This is a comment */
+/* Author - Bryant Welch 
+    version - 1.0
+*/
+/* style rule - selector, declaration */
+/* selector{prpertyname: value;} */
+
+/* selectors - element, id, class, mulitple elements */
+
+/* important rule overrides bootstrap defaults */
+/* css variables - root - var() */
+:root{
+    --main-color: red;
+    --bg-color: lightblue;
+}
+body{
+    background-color: var(--bg-color);
+}
+p{
+    color: green;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-style: 18px; /* em, rem 1rem=16px, px, % */
+    font-weight: bold;
+}
+h1{
+    background-color: lightblue;
+}
+a{
+    color:red;
+    font-style: italic;
+    text-decoration: underline;
+}
+footer{
+    font-style: italic;
+}
+#idname{
+    color: orange;
+}
+.classname{
+    color: pink;
+}
+p,h1,h2,.classname{
+
+}
+footer i{ /* child selector the i is the child and the footer is the parent */
+
+}
+nav a{
+
+}
+h3{
+    color: black !important;
+
+}

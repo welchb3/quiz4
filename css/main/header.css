@@ -1,0 +1,39 @@
+header{
+    background-color: rgba(0,0,0,0.8);
+    /* display: flex; */
+    width: 100%;
+    height: auto;
+}
+.logo{
+    display: grid;
+    padding-bottom: 2em;
+    /* flex: 1; */
+    color: var(--text-color);
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 15px;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    padding: 10px;
+}
+.menu ul{
+    padding-top: 1em;
+    /* display: flex; */
+    list-style: none;
+    /* flex-flow: wrap; */
+}
+.menu li{
+    margin-left: 35%;
+    /* flex: 1; */
+}
+.menu a{
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 1em;
+    font-size: 20px;
+}
+.grid-items{
+    margin-top: 50px;
+}

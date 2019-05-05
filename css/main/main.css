@@ -1,0 +1,11 @@
+.main_1{
+    padding: 1em;
+    text-align: center;
+}
+.main-grid{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+.main-grid-items{
+    padding: 1em;
+}
